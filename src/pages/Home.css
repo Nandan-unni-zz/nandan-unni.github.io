@@ -1,0 +1,20 @@
+.terminal {
+    background-color: black;
+}
+.name {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name i {
+    font-size: 10vh;
+    padding: 3vh;
+    color: rgb(75, 75, 75);
+}
+.name b {
+    font-size: 8vh;
+    padding: 3vh;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}

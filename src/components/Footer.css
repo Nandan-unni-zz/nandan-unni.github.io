@@ -1,0 +1,21 @@
+.Footer a {
+    padding: 3vw;
+}
+.fa-envelope {
+    color: rgb(212, 70, 56);
+}
+.fa-github {
+    color: rgb(60, 60, 60);
+}
+.fa-linkedin {
+    color: #0e76a8;
+}
+.fa-twitter {
+    color:  #00acee;
+}
+.fa-instagram {
+    color: #dd2a7b;
+}
+.fa-telegram {
+    color: rgb(0, 136, 204);
+}
