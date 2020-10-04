@@ -1,0 +1,48 @@
+.Header {
+    background-color: black;
+}
+@keyframes nameAnim {
+    0% { color: white; }
+    50% { color: rgb(175, 175, 175); }
+    100% { color: white; }
+}
+.name {
+    color: rgb(200, 200, 200);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+.name i {
+    display: flex;
+    font-size: 5vw;
+    padding: 3vh;
+    margin-left: 5vw;
+    color: rgb(75, 75, 75);
+}
+.name b {
+    font-size: 4vw;
+    font-weight: 900;
+    padding: 3vh;
+    color: white;
+    animation-name: nameAnim;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Long Screen */
+@media only screen and (max-width: 600px) {
+    .name i {
+        font-size: 12vw;
+        padding: 3vh;
+        color: rgb(75, 75, 75);
+    }
+    .name b {
+        font-size: 9vw;
+        padding: 3vh;
+        color: white;
+        font-family: 'Source Code Pro', monospace;
+    }
+}

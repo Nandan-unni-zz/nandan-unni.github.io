@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import Typist from 'react-typist';
 import FadeIn from 'react-fade-in';
 
 import './Home.css';
+import Header from '../components/Header';
 import Footer from '../components/Footer';
+
+import ProfilePicture from '../assets/nandanunni.jpg';
 import Python from '../assets/python.png';
 import Django from '../assets/django.png';
 import JavaScript from '../assets/javascript.png';
@@ -13,25 +15,33 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <div className="header">
-                    <div className="name">
-                        <i class="fa fa-2x fa-terminal">
-                            <Typist 
-                                avgTypingDelay={100} 
-                                startDelay={200}
-                                cursor={{ element: "_"}}>
-                                <b> Nandanunni</b>
-                            </Typist>
-                        </i>
+                <Header></Header>
+                <FadeIn delay={1500} transitionDuration={1000}>
+                    <div className="projects-header" id="about">
+                        <i class="fa fa-2x fa-diamond"><b>&nbsp;About</b></i><br/>
+                        <div className="projects-line"></div>
                     </div>
-                </div><br />
-                <FadeIn delay={1200} transitionDuration={1000}>
-                    <div className="projects-header">
+                </FadeIn><br/>
+                <div className="about">
+                    <FadeIn delay={1500} transitionDuration={2000}>
+                        <div className="about-dp"><img src={ProfilePicture} alt="nandanunni"/></div>
+                    </FadeIn>
+                    <FadeIn delay={2250} transitionDuration={2000}>
+                        <div className="about-dtl">
+                                <p>Web Developer, Machine Learning enthusiast.</p>
+                                <p>BTech <span>student</span> by day, <span>Developer</span> by night</p>
+                                <p><span>India</span> is my nation and <span>coding</span> is my passion.</p>
+                        </div>
+                    </FadeIn>
+                </div><br /><br /><br />
+
+                <FadeIn delay={3000} transitionDuration={1000}>
+                    <div className="projects-header" id="projects">
                         <i class="fa fa-2x fa-diamond"><b>&nbsp;Projects</b></i><br/>
                         <div className="projects-line"></div>
                     </div>
                 </FadeIn><br/>
-                <FadeIn delay={1500} transitionDuration={2000}>
+                <FadeIn delay={3000} transitionDuration={2000}>
                     <div className="projects-tab">
 
                         <div className="tab-section">
@@ -86,9 +96,6 @@ class Home extends Component {
                                     <div className="card-nav-left">
                                         <a href="https://github.com/nandan-unni/instagram-api-clone">View Source Code</a>
                                     </div>
-                                    <div className="card-nav-right">
-                                        <a href="https://github.com/nandan-unni/nandan-unni">View Project</a>
-                                    </div>
                                 </div>
                             </div> &nbsp;  {/* 3rd card end */}
 
@@ -112,8 +119,8 @@ class Home extends Component {
 
                         </div> {/* 2nd tab-section end */}
                     </div> {/* Projects Tab end */}
-                </FadeIn>
-                <Footer></Footer>
+                </FadeIn><br />
+                <div id="contact"><Footer></Footer></div>
             </div>
         );
     }

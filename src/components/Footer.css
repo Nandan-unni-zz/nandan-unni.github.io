@@ -1,6 +1,15 @@
 .Footer a {
     padding: 3vw;
+    font-size: 3vh;
 }
+/* Long Screen */
+@media only screen and (max-width: 600px) {
+    .Footer a {
+        padding: 3vw;
+        font-size: 1.8vh;
+    }
+}
+
 .fa-envelope {
     color: rgb(212, 70, 56);
 }

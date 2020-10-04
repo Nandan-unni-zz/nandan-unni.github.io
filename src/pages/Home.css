@@ -1,53 +1,45 @@
-.header {
-    background-color: rgb(10, 10, 10);
+.about {
+    margin: auto;
+    width: 50%;
 }
-@keyframes nameAnim {
-    0% { color: white; }
-    50% { color: rgb(220, 220, 220); }
-    100% { color: white; }
+.about-dp img {
+    border-radius: 100%;
+    height: 20vh;
+    width: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.name {
+.about-dtl p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5vh;
     color: rgb(200, 200, 200);
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
+    text-align: center;
+    line-height: 2vh;
 }
-.name i {
-    display: flex;
-    font-size: 6vw;
-    padding: 3vh;
-    margin-left: 5vw;
-    color: rgb(75, 75, 75);
+.dtl-tom {
+    color: tomato;
 }
-.name b {
-    font-size: 5vw;
-    padding: 3vh;
-    color: white;
-    animation-name: nameAnim;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    font-family: 'Source Code Pro', monospace;
+.about-dtl span {
+    color: dodgerblue;
 }
-
 .projects-header {
     margin-left: 5vw;
 }
 .projects-header i {
-    font-size: 4vh;
+    font-size: 3.6vh;
     font-weight: 900;
     display: flex;
-    color: gray;
+    color: tomato;
 }
 .projects-header b {
-    color: rgb(200, 200, 200);
-    font-family: 'Source Code Pro', monospace;
+    color: dodgerblue;
+    font-family: 'Nunito', sans-serif;
     font-weight: 100;
 }
 .projects-line {
     height: 0.1vh;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(40, 40, 40);
 }
 .tab-section {
     display: flex;
@@ -57,14 +49,14 @@
     overflow-x: hidden;
 }
 @keyframes cardAnim {
-    0% { border: 0.6vh solid rgb(20, 20, 20);}
-    50% { border: 0.6vh solid rgb(30, 30, 30);
+    0% { border: 0.6vh solid rgb(30, 30, 30);}
+    50% { border: 0.6vh solid rgb(40, 40, 40);
           border-radius: 1.5vh; }
-    100% { border: 0.6vh solid rgb(20, 20, 20); }
+    100% { border: 0.6vh solid rgb(30, 30, 30); }
 }
 .Card {
     color: gray;
-    background-color: rgb(40, 40, 40);
+    background-color: transparent;
     border: 0.5vh solid rgb(20, 20, 20);
     height: fit-content;
     width: 32vw;
@@ -127,16 +119,20 @@
 
 /* Long Screen */
 @media only screen and (max-width: 600px) {
-    .name i {
-        font-size: 15vw;
-        padding: 3vh;
-        color: rgb(75, 75, 75);
+    .about-dp img {
+        border-radius: 100%;
+        height: 18vh;
+        width: 18vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .name b {
-        font-size: 12vw;
-        padding: 3vh;
-        color: white;
-        font-family: 'Source Code Pro', monospace;
+    .about-dtl p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.8vh;
+        color: rgb(200, 200, 200);
+        text-align: center;
+        line-height: 2vh;
     }
     .tab-section {
         display: contents;
