@@ -29,7 +29,7 @@ class Home extends Component {
                     <FadeIn delay={2250} transitionDuration={2000}>
                         <div className="about-dtl">
                                 <p>Web Developer, Machine Learning enthusiast.</p>
-                                <p>BTech <span>student</span> by day, <span>Developer</span> by night</p>
+                                <p><span>Student</span> by day, <span>Developer</span> by night</p>
                                 <p><span>India</span> is my nation and <span>coding</span> is my passion.</p>
                         </div>
                     </FadeIn>
