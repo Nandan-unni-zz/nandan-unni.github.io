@@ -35,7 +35,7 @@
 .projects-header b {
     color: dodgerblue;
     font-family: 'Nunito', sans-serif;
-    font-weight: 100;
+    font-weight: 900;
 }
 .projects-line {
     height: 0.1vh;
@@ -129,7 +129,7 @@
     }
     .about-dtl p {
         font-family: 'Nunito', sans-serif;
-        font-size: 1.8vh;
+        font-size: 2vh;
         color: rgb(200, 200, 200);
         text-align: center;
         line-height: 2vh;
@@ -177,9 +177,14 @@
         margin-left: 1vw;
     }
     .projects-header i {
-        font-size: 2vh;
+        font-size: 2.5vh;
         font-weight: 900;
         display: flex;
-        color: gray;
+        color: tomato;
+    }
+    .projects-header b {
+        color: dodgerblue;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
     }
 }
