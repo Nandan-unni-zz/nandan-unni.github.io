@@ -1,3 +1,22 @@
+.section-header {
+    margin-left: 5vw;
+}
+.section-header i {
+    font-size: 3.6vh;
+    font-weight: 900;
+    display: flex;
+    color: tomato;
+}
+.section-header b {
+    color: dodgerblue;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+.section-line {
+    height: 0.1vh;
+    background-color: rgb(40, 40, 40);
+}
+
 .about {
     margin: auto;
     width: 50%;
@@ -29,25 +48,7 @@
     height: auto;
     margin-left: 1vw;
 }
-.projects-header {
-    margin-left: 5vw;
-}
-.projects-header i {
-    font-size: 3.6vh;
-    font-weight: 900;
-    display: flex;
-    color: tomato;
-}
-.projects-header b {
-    color: dodgerblue;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 900;
-}
-.projects-line {
-    height: 0.1vh;
-    background-color: rgb(40, 40, 40);
-}
-.tab-section {
+.tab-block {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +59,17 @@
 
 /* Long Screen */
 @media only screen and (max-width: 600px) {
+    .section-header i {
+        font-size: 2.5vh;
+        font-weight: 900;
+        display: flex;
+        color: tomato;
+    }
+    .section-header b {
+        color: dodgerblue;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
+    }
     .about-dp img {
         border-radius: 100%;
         height: 18vh;
@@ -79,21 +91,10 @@
         text-align: center;
         line-height: 2vh;
     }
-    .tab-section {
+    .tab-block {
         display: contents;
         justify-content: center;
         align-items: center;
         overflow-x: hidden;
-    }
-    .projects-header i {
-        font-size: 2.5vh;
-        font-weight: 900;
-        display: flex;
-        color: tomato;
-    }
-    .projects-header b {
-        color: dodgerblue;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
     }
 }
