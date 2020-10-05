@@ -3,7 +3,7 @@
 body {
     margin: 0;
     background-color: black;
-    background-image: url('./assets/background.jpg');
+    background-image: url('./images/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

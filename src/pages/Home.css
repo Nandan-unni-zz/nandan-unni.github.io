@@ -24,6 +24,11 @@
 .about-dtl span {
     color: dodgerblue;
 }
+.skills-lang img {
+    width: 2.5vw;
+    height: auto;
+    margin-left: 1vw;
+}
 .projects-header {
     margin-left: 5vw;
 }
@@ -49,73 +54,6 @@
     padding: 4vh;
     overflow-x: hidden;
 }
-@keyframes cardAnim {
-    0% { border: 0.6vh solid rgb(30, 30, 30);}
-    50% { border: 0.6vh solid rgb(40, 40, 40);
-          border-radius: 1.5vh; }
-    100% { border: 0.6vh solid rgb(30, 30, 30); }
-}
-.Card {
-    color: gray;
-    background-color: transparent;
-    border: 0.5vh solid rgb(20, 20, 20);
-    height: fit-content;
-    width: 32vw;
-    padding: 3vh 2vw;
-    border-radius: 2vh;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 5vh;
-    animation-name: cardAnim;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-}
-@keyframes cardTitleAnim {
-    0% { color: tomato; }
-    50% { color: rgb(255, 86, 56); }
-    100% { color: tomato; }
-}
-.Card h2 {
-    color: tomato;
-    font-size: 3vh;
-    line-height: 0.1vh;
-    font-family: 'Nunito', sans-serif;
-    animation-name: cardTitleAnim;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-}
-.Card h4 {
-    color: rgb(100, 100, 100);
-    font-size: 1.6vh;
-    font-weight: 100;
-}
-.Card p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 2.2vh;
-    margin-left: 1vw;
-}
-.Card a {
-    text-decoration: none;
-    color: dodgerblue;
-    font-size: 2.2vh;
-}
-.Card a:hover {
-    font-weight: 900;
-}
-.card-lang img {
-    width: 1.5vw;
-    height: auto;
-    margin-left: 1vw;
-}
-.card-nav {
-    display: flex;
-}
-.card-nav-left {
-    margin-right: auto;
-}
-.card-nav-right {
-    margin-left: auto;
-    order: 2;
-}
 
 
 /* Long Screen */
@@ -127,6 +65,11 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .skills-lang img {
+        width: 6vw;
+        height: auto;
+        margin-left: 1vw;
     }
     .about-dtl p {
         font-family: 'Nunito', sans-serif;
@@ -141,42 +84,6 @@
         justify-content: center;
         align-items: center;
         overflow-x: hidden;
-    }
-    .Card {
-        color: gray;
-        background-color: rgb(40, 40, 40);
-        height: fit-content;
-        width: 75vw;
-        padding: 3vh 2vw;
-        border-radius: 2vh;
-        font-family: 'Poppins', sans-serif;
-        margin-left: 5vh;
-    }
-    .Card h2 {
-        color: tomato;
-        font-size: 2.5vh;
-        line-height: 0.1vh;
-        font-family: 'Nunito', sans-serif;
-    }
-    .Card h4 {
-        color: rgb(100, 100, 100);
-        font-size: 1.2vh;
-        font-weight: 100;
-    }
-    .Card p {
-        font-family: 'Nunito', sans-serif;
-        font-size: 1.8vh;
-        margin-left: 1vw;
-    }
-    .Card a {
-        text-decoration: none;
-        color: dodgerblue;
-        font-size: 1.8vh;
-    }
-    .card-lang img {
-        width: 4vw;
-        height: auto;
-        margin-left: 1vw;
     }
     .projects-header i {
         font-size: 2.5vh;
