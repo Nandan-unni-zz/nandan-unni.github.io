@@ -13,7 +13,7 @@ class Header extends Component {
                             avgTypingDelay={100} 
                             startDelay={200}
                             cursor={{ element: "_"}}>
-                            <b>Nandanunni</b>
+                            <b>Nandan<n>unni</n></b>
                         </Typist>
                     </i>
                 </div>
