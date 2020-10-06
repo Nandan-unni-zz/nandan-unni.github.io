@@ -2,14 +2,18 @@ import React, { Component } from 'react';
 import FadeIn from 'react-fade-in';
 
 import './Home.css';
+
+// Importing Components
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+// Importing Project Card Components
 import CardA from '../components/CardA';
 import CardB from '../components/CardB';
 import CardC from '../components/CardC';
 import CardD from '../components/CardD';
 
+// Importing Images
 import ProfilePicture from '../images/nandanunni.jpg';
 import PythonLogo from '../images/python.png';
 import DjangoLogo from '../images/django.png';
@@ -20,6 +24,7 @@ import CPPLogo from '../images/cpp.png';
 import CLogo from '../images/c.png';
 import HTMLLogo from '../images/html.png';
 import CSSLogo from '../images/css.png';
+
 
 class Home extends Component {
     render() {
