@@ -14,13 +14,13 @@ class Footer extends Component {
                 <a href="https://github.com/nandan-unni">
                     <i class="fa fa-2x fa-github"></i>
                 </a> &nbsp;
-                <a href="https://twitter.com/Nandanunni_A_S">
+                <a href="https://twitter.com/asnandanunni">
                     <i class="fa fa-2x fa-twitter"></i>
                 </a> &nbsp;
-                <a href="http://www.linkedin.com/in/nandanunni-a-s-258b10193">
+                <a href="http://www.linkedin.com/in/nandanunni">
                     <i class="fa fa-2x fa-linkedin"></i>
                 </a> &nbsp;
-                <a href="https://t.me/nandanunni_a_s/">
+                <a href="https://t.me/asnandanunni/">
                     <i class="fa fa-2x fa-telegram"></i>
                 </a> &nbsp;
                 <a href="https://www.instagram.com/u.n.n.i._/">
