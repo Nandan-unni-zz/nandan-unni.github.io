@@ -17,7 +17,7 @@ class Footer extends Component {
                 <a href="https://twitter.com/asnandanunni">
                     <i class="fa fa-2x fa-twitter"></i>
                 </a> &nbsp;
-                <a href="http://www.linkedin.com/in/nandanunni">
+                <a href="http://www.linkedin.com/in/nandanunni-a-s">
                     <i class="fa fa-2x fa-linkedin"></i>
                 </a> &nbsp;
                 <a href="https://t.me/asnandanunni/">
