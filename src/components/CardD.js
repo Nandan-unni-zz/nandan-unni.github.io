@@ -20,7 +20,7 @@ class CardD extends Component {
                         <a href="https://github.com/nandan-unni/React-Calculator" target="_blank" rel="noopener noreferrer">View Source Code</a>
                     </div>
                     <div className="card-nav-right">
-                        <a href="https://nqcalculator.web.app" target="_blank" rel="noopener noreferrer">View Project</a>
+                        <a href="/React-Calculator/" target="_blank" rel="noopener noreferrer">View Project</a>
                     </div>
                 </div>
             </div>
