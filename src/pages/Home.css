@@ -1,100 +1,99 @@
 .section-header {
-    margin-left: 5vw;
+  margin-left: 5vw;
 }
 .section-header i {
-    font-size: 3.6vh;
-    font-weight: 900;
-    display: flex;
-    color: tomato;
+  font-size: 3.6vh;
+  font-weight: 900;
+  display: flex;
+  color: tomato;
 }
 .section-header b {
-    color: dodgerblue;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 900;
+  color: dodgerblue;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
 }
 .section-line {
-    height: 0.1vh;
-    background-color: rgb(40, 40, 40);
+  height: 0.1vh;
+  background-color: rgb(40, 40, 40);
 }
 
 .about {
-    margin: auto;
-    width: 50%;
+  margin: auto;
+  width: 50%;
 }
 .about-dp img {
+  border-radius: 100%;
+  height: 20vh;
+  width: 20vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-dtl p {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 800;
+  color: rgb(200, 200, 200);
+  text-align: center;
+  line-height: 2vh;
+}
+.dtl-tom {
+  color: tomato;
+}
+.about-dtl span {
+  color: dodgerblue;
+}
+.skills-lang img {
+  width: 2vw;
+  height: auto;
+  margin-left: 1vw;
+}
+.tab-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
+  overflow-x: hidden;
+}
+
+/* Long Screen */
+@media only screen and (max-width: 600px) {
+  .section-header i {
+    font-size: 2.5vh;
+    font-weight: 900;
+    display: flex;
+    color: tomato;
+  }
+  .section-header b {
+    color: dodgerblue;
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+  }
+  .about-dp img {
     border-radius: 100%;
-    height: 20vh;
-    width: 20vh;
+    height: 18vh;
+    width: 18vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-.about-dtl p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 2.5vh;
+  }
+  .skills-lang img {
+    width: 6vw;
+    height: auto;
+    margin-left: 1vw;
+  }
+  .about-dtl p {
+    font-family: "Nunito", sans-serif;
+    font-size: 2vh;
     font-weight: 800;
     color: rgb(200, 200, 200);
     text-align: center;
     line-height: 2vh;
-}
-.dtl-tom {
-    color: tomato;
-}
-.about-dtl span {
-    color: dodgerblue;
-}
-.skills-lang img {
-    width: 2vw;
-    height: auto;
-    margin-left: 1vw;
-}
-.tab-block {
-    display: flex;
+  }
+  .tab-block {
+    display: contents;
     justify-content: center;
     align-items: center;
-    padding: 4vh;
     overflow-x: hidden;
-}
-
-
-/* Long Screen */
-@media only screen and (max-width: 600px) {
-    .section-header i {
-        font-size: 2.5vh;
-        font-weight: 900;
-        display: flex;
-        color: tomato;
-    }
-    .section-header b {
-        color: dodgerblue;
-        font-family: 'Nunito', sans-serif;
-        font-weight: 900;
-    }
-    .about-dp img {
-        border-radius: 100%;
-        height: 18vh;
-        width: 18vh;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .skills-lang img {
-        width: 6vw;
-        height: auto;
-        margin-left: 1vw;
-    }
-    .about-dtl p {
-        font-family: 'Nunito', sans-serif;
-        font-size: 2vh;
-        font-weight: 800;
-        color: rgb(200, 200, 200);
-        text-align: center;
-        line-height: 2vh;
-    }
-    .tab-block {
-        display: contents;
-        justify-content: center;
-        align-items: center;
-        overflow-x: hidden;
-    }
+  }
 }

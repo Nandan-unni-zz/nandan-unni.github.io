@@ -1,59 +1,71 @@
 @keyframes nameAnim {
-    0% { color: rgb(240, 240, 240); }
-    50% { color: rgb(200, 200, 200); }
-    100% { color: rgb(240, 240, 240); }
+  0% {
+    color: rgb(240, 240, 240);
+  }
+  50% {
+    color: rgb(200, 200, 200);
+  }
+  100% {
+    color: rgb(240, 240, 240);
+  }
 }
 .name {
-    color: rgb(200, 200, 200);
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
+  color: rgb(200, 200, 200);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 .name i {
-    display: flex;
-    font-size: 5vw;
-    padding: 3vh;
-    color: rgb(75, 75, 75);
+  display: flex;
+  font-size: 5vw;
+  padding: 3vh;
+  color: rgb(75, 75, 75);
 }
 .name b {
-    font-size: 4vw;
-    font-weight: 900;
-    padding: 3vh;
-    color: rgb(240, 240, 240);
-    animation-name: nameAnim;
-    animation-duration: 60s;
-    animation-iteration-count: infinite;
-    font-family: 'Source Code Pro', monospace;
+  font-size: 4vw;
+  font-weight: 900;
+  padding: 3vh;
+  color: rgb(240, 240, 240);
+  animation-name: nameAnim;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  font-family: "Source Code Pro", monospace;
 }
 .name n {
-    color: tomato;
+  color: tomato;
 }
 @keyframes cursorAnim {
-    0% { color: gray; }
-    50% { color: black; }
-    100% { color: gray; }
+  0% {
+    color: gray;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: gray;
+  }
 }
 .name span {
-    font-size: 6vh;
-    font-weight: 900;
-    animation-name: cursorAnim;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+  font-size: 6vh;
+  font-weight: 900;
+  animation-name: cursorAnim;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 /* Long Screen */
 @media only screen and (max-width: 600px) {
-    .name i {
-        font-size: 12vw;
-        padding: 3vh;
-        color: rgb(75, 75, 75);
-    }
-    .name b {
-        font-size: 9vw;
-        padding: 3vh;
-        color: white;
-        font-family: 'Source Code Pro', monospace;
-    }
+  .name i {
+    font-size: 12vw;
+    padding: 3vh;
+    color: rgb(75, 75, 75);
+  }
+  .name b {
+    font-size: 9vw;
+    padding: 3vh;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+  }
 }
