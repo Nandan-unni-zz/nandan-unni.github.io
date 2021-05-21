@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Python",
+        "level": "5",
+        "icon": "<svg></svg>",
+        "projects": [
+            {
+                "name": "Nano",
+                "link": "https://github.com/Nandan-unni/Nano"
+            }
+        ]
+    }
+]
