@@ -1,0 +1,15 @@
+@media only screen and (max-width: 500px) {
+  header nav .menuToggleBtn div {
+    width: 32px;
+  }
+  header svg {
+    height: 50px;
+    width: 50px;
+  }
+  header code {
+    font-size: 28px;
+  }
+  header p {
+    font-size: 40px;
+  }
+}

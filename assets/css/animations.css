@@ -1,0 +1,36 @@
+@keyframes cursor {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 360px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 290px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 252px;
+    }
+  }
+}

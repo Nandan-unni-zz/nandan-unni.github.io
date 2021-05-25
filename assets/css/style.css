@@ -3,26 +3,168 @@
 font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif; 
 */
-
+:root {
+  --transition: ease-in-out 0.2s;
+}
+.darkMode {
+  --primaryBg: #000000;
+  --secondaryBg: #ffffff;
+  --primaryText: rgb(225, 225, 225);
+  --secondaryText: rgb(100, 100, 100);
+  --tertiaryText: rgb(30, 30, 30);
+}
+.lightMode {
+  --primaryBg: #ffffff;
+  --secondaryBg: #000000;
+  --primaryText: rgb(30, 30, 30);
+  --secondaryText: rgb(155, 155, 155);
+  --tertiaryText: rgb(225, 225, 225);
+}
 * {
   margin: 0;
-  padding: 0;
   outline: none;
-  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+a {
+  transition: var(--transition);
+  color: var(--primaryText);
 }
 body {
-  transition: ease-in-out 0.3s;
+  transition: var(--transition);
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primaryBg);
+  color: var(--primaryText);
 }
 button {
   border: none;
-}
-nav .themeToggleBtn {
-  margin: 15px;
-  width: 50px;
-  height: 50px;
-  border-radius: 500px;
   cursor: pointer;
+}
+
+header,
+header nav,
+header code,
+noscript {
+  display: flex;
+  align-items: center;
+}
+header nav {
+  justify-content: space-between;
+  width: 100%;
+}
+header nav .themeToggleBtn {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
   background-color: transparent;
   transform: rotate(30deg);
-  transition: ease-in-out 0.3s;
+  transition: var(--transition);
+}
+.lightMode header nav .themeToggleBtn {
+  border-bottom: 35px solid orange;
+  background-color: orange;
+}
+.darkMode header nav .themeToggleBtn {
+  border-bottom: 10px solid orange;
+}
+header nav .menuToggleBtn {
+  background-color: transparent;
+  height: 35px;
+}
+header nav .menuToggleBtn div {
+  width: 36px;
+  height: 3px;
+  margin: 5px 0;
+  transition: var(--transition);
+  background-color: var(--primaryText);
+}
+header nav .openMenu div {
+  margin: 0;
+  width: 32px;
+}
+header nav .openMenu div:first-child {
+  transform: rotate(45deg) translate(-3px, 5px);
+}
+header nav .openMenu div:nth-child(2) {
+  display: none;
+}
+header nav .openMenu div:last-child {
+  transform: rotate(-45deg) translate(-3px, -5px);
+}
+header {
+  flex-direction: column;
+  text-align: center;
+  padding: 5px 20px;
+}
+header code {
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+header code span {
+  color: tomato;
+}
+header code h2 {
+  overflow: hidden;
+  width: fit-content;
+  white-space: nowrap;
+  animation: typing 1.5s steps(10);
+}
+header code svg,
+header code p {
+  color: var(--secondaryText);
+}
+header code p {
+  font-size: 50px;
+  padding-left: 10px;
+  font-weight: bolder;
+  animation: cursor 0.4s ease-out infinite alternate none;
+}
+header figure img {
+  height: 20vh;
+  width: 20vh;
+  border-radius: 100%;
+  padding: 20px 0;
+}
+header figcaption p {
+  font-weight: 600;
+  font-size: 2.1vh;
+  line-height: 36px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+header figcaption span {
+  color: dodgerblue;
+}
+
+noscript {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-color: black;
+}
+noscript details {
+  height: 30vh;
+}
+noscript summary {
+  text-align: center;
+  font-size: 30px;
+}
+noscript summary code,
+noscript summary::marker,
+noscript ul li::marker {
+  color: tomato;
+}
+noscript ul {
+  padding-top: 20px;
+}
+noscript ul li {
+  font-size: 18px;
+}
+noscript ul kbd {
+  font-size: 16px;
+  color: dodgerblue;
 }

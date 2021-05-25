@@ -4,18 +4,97 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./assets/css/animations.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/darkMode.css" />
-    <link rel="stylesheet" href="./assets/css/lightMode.css" />
+    <link rel="stylesheet" href="./assets/css/tablet.css" />
+    <link rel="stylesheet" href="./assets/css/mobile.css" />
+
+    <link rel="icon" href="./assets/img/nandanunni.jpg" />
+    <link rel="apple-touch-icon" href="./assets/img/nandanunni.jpg" />
+
     <title>Nandanunni</title>
+    <meta name="description" content="{Developer && Student}" />
   </head>
-  <body id="body" class="dark">
-    <nav>
-      <button class="themeToggleBtn" onclick="toggleTheme()"></button>
-    </nav>
+  <body class="darkMode" onload="setEnvironment()">
     <header>
-      <h2>Nandanunni</h2>
+      <nav>
+        <button class="themeToggleBtn" onclick="toggleTheme()"></button>
+        <button
+          class="menuToggleBtn closedMenu"
+          id="menuToggleBtn"
+          onclick="toggleMenu()"
+        >
+          <div class="menu0"></div>
+          <div class="menu1"></div>
+          <div class="menu2"></div>
+        </button>
+      </nav>
+      <code>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="80"
+          height="80"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+        <h2>Nandan<span>unni</span></h2>
+        <p>_</p>
+      </code>
+      <figure>
+        <img src="./assets/img/nandanunni.jpg" alt="Image" />
+        <figcaption>
+          <p>
+            Software <span>Developer</span> Intern at
+            <abbr title="Techbyheart">
+              <a href="https://techbyheart.in/" target="_blank" rel="noopener">
+                <span>TBH</span>
+              </a>
+            </abbr>
+          </p>
+          <p>
+            <abbr title="Computer Science and Engineering">CSE</abbr>
+            <span>Student</span> at
+            <abbr
+              title="School of Engineering, Cochin University of Science and Technology"
+            >
+              <a href="http://soe.cusat.ac.in/" target="_blank" rel="noopener">
+                SOE
+              </a>
+              ,
+              <a href="https://cusat.ac.in/" target="_blank" rel="noopener">
+                <span>CUSAT</span>
+              </a>
+            </abbr>
+          </p>
+        </figcaption>
+      </figure>
     </header>
+
+    <nav id="menu"></nav>
+
+    <footer></footer>
+
     <script src="./assets/js/app.js"></script>
+    <noscript>
+      <details>
+        <summary>
+          You need to enable <code>JavaScript</code> to run this app.
+        </summary>
+        <ul>
+          <li>Open <kbd>Browser Settings</kbd></li>
+          <li>Click <kbd>Privacy and Security</kbd></li>
+          <li>Open <kbd>Site settings</kbd></li>
+          <li>Scroll down to <kbd>Content</kbd> section</li>
+          <li>Enable <kbd>JavaScript</kbd></li>
+        </ul>
+      </details>
+    </noscript>
   </body>
 </html>
