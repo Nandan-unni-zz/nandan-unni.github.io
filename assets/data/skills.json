@@ -9,5 +9,16 @@
                 "link": "https://github.com/Nandan-unni/Nano"
             }
         ]
+    }, 
+    {
+        "name": "JavaScript",
+        "level": "5",
+        "icon": "<svg></svg>",
+        "projects": [
+            {
+                "name": "Nano",
+                "link": "https://github.com/Nandan-unni/Nano"
+            }
+        ]
     }
 ]

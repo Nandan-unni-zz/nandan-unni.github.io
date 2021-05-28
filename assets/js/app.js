@@ -16,9 +16,15 @@ const toggleTheme = () => {
 
 const toggleMenu = () => {
   let menuBtn = document.getElementById("menuToggleBtn");
-  if (menuBtn.className.includes("openMenu")) {
-    menuBtn.classList.replace("openMenu", "closedMenu");
+  let menu = document.getElementById("menu");
+  if (menuBtn.className.includes("openMenuBtn")) {
+    menuBtn.classList.replace("openMenuBtn", "closedMenuBtn");
+    menu.style.width = "0";
   } else {
-    menuBtn.classList.replace("closedMenu", "openMenu");
+    menuBtn.classList.replace("closedMenuBtn", "openMenuBtn");
+    if (window.innerWidth >= 1025) menu.style.width = "350px";
+    else if (window.innerWidth >= 500 && window.innerWidth < 1025)
+      menu.style.width = "380px";
+    else menu.style.width = "300px";
   }
 };

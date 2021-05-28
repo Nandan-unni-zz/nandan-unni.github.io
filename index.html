@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./assets/css/animations.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/tablet.css" />
-    <link rel="stylesheet" href="./assets/css/mobile.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/colors.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/tablet.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
 
-    <link rel="icon" href="./assets/img/nandanunni.jpg" />
-    <link rel="apple-touch-icon" href="./assets/img/nandanunni.jpg" />
+    <link rel="icon" href="assets/img/nandanunni.jpg" />
+    <link rel="apple-touch-icon" href="assets/img/nandanunni.jpg" />
 
     <title>Nandanunni</title>
     <meta name="description" content="{Developer && Student}" />
+
+    <script
+      src="components/ProjectCard.js"
+      type="text/javaScript"
+      defer
+    ></script>
   </head>
   <body class="darkMode" onload="setEnvironment()">
     <header>
       <nav>
         <button class="themeToggleBtn" onclick="toggleTheme()"></button>
         <button
-          class="menuToggleBtn closedMenu"
+          class="menuToggleBtn closedMenuBtn"
           id="menuToggleBtn"
           onclick="toggleMenu()"
         >
@@ -65,9 +72,8 @@
               title="School of Engineering, Cochin University of Science and Technology"
             >
               <a href="http://soe.cusat.ac.in/" target="_blank" rel="noopener">
-                SOE
+                SOE,
               </a>
-              ,
               <a href="https://cusat.ac.in/" target="_blank" rel="noopener">
                 <span>CUSAT</span>
               </a>
@@ -77,11 +83,170 @@
       </figure>
     </header>
 
-    <nav id="menu"></nav>
+    <div class="tabs">
+      <button class="tabBtn" onclick="openTab('projects')">
+        <span>
+          <img src="/assets/img/thunder.svg" alt="thunder" />
+          Projects
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          id="projectsArrow"
+        >
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+      <section class="tab closedTab" id="projects"></section>
+      <button class="tabBtn" onclick="openTab('experience')">
+        <span>
+          <img src="/assets/img/thunder.svg" alt="thunder" />
+          Experience
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          id="experienceArrow"
+        >
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+      <section class="tab closedTab" id="experience"></section>
+      <button class="tabBtn" onclick="openTab('contributions')">
+        <span>
+          <img src="/assets/img/thunder.svg" alt="thunder" />
+          Contributions
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          id="contributionsArrow"
+        >
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+      <section class="tab closedTab" id="contributions"></section>
+      <button class="tabBtn" onclick="openTab('skills')">
+        <span>
+          <img src="/assets/img/thunder.svg" alt="thunder" />
+          Skills
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          id="skillsArrow"
+        >
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+      <section class="tab closedTab" id="skills"></section>
+    </div>
 
     <footer></footer>
 
+    <menu id="menu" class="closedMenu">
+      <a
+        href="./assets/data/Nandanunni_Resume.pdf"
+        target="_blank"
+        rel="noopener"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+          <circle cx="12" cy="12" r="3"></circle>
+        </svg>
+        View Resume
+      </a>
+      <a
+        href="./assets/data/Nandanunni_Resume.pdf"
+        download="Nandanunni_Resume"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download Resume
+      </a>
+      <a href="mailto:asnqln@gmail.com" target="_blank" rel="noopener">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+          ></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+        Mail Me
+      </a>
+      <a href="https://t.me/asnandanunni" target="_blank" rel="noopener">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <line x1="22" y1="2" x2="11" y2="13"></line>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+        </svg>
+        Ping Me
+      </a>
+    </menu>
+
     <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/tabOpener.js"></script>
     <noscript>
       <details>
         <summary>

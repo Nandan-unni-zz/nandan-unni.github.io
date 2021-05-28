@@ -13,6 +13,23 @@
   }
 }
 
+@keyframes slideIn {
+  from {
+    max-height: 0;
+  }
+  to {
+    max-height: 300px;
+  }
+}
+@keyframes slideOut {
+  from {
+    max-height: 300px;
+  }
+  to {
+    max-height: 0;
+  }
+}
+
 @media only screen and (max-width: 1025px) {
   @keyframes typing {
     from {

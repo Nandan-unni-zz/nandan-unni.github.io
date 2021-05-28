@@ -1,0 +1,49 @@
+.darkMode {
+  --primaryBg: #000000;
+  --secondaryBg: rgb(150, 150, 150);
+  --tertiaryBg: #ffffff;
+  --primaryText: rgb(225, 225, 225);
+  --secondaryText: rgb(100, 100, 100);
+  --tertiaryText: rgb(30, 30, 30);
+}
+.lightMode {
+  --primaryBg: #ffffff;
+  --secondaryBg: rgb(105, 105, 105);
+  --tertiaryBg: #000000;
+  --primaryText: rgb(30, 30, 30);
+  --secondaryText: rgb(155, 155, 155);
+  --tertiaryText: rgb(225, 225, 225);
+}
+/* .status {
+  --tagColor: #ff6347;
+  --tagBg: #ff634733;
+}
+.nodejs {
+  --tagColor: #008000;
+  --tagBg: #00800033;
+}
+.react {
+  --tagColor: #1e90ff;
+  --tagBg: #1e90ff33;
+}
+.express,
+.gunicorn {
+  --tagColor: #787878;
+  --tagBg: #78787833;
+}
+.mongodb {
+  --tagColor: #00a500;
+  --tagBg: #00a50033;
+}
+.firebase {
+  --tagColor: #efa510;
+  --tagBg: #efa51033;
+}
+.python {
+  --tagColor: #0080ff;
+  --tagBg: #0080ff33;
+}
+.django {
+  --tagColor: #008000;
+  --tagBg: #00800033;
+} */
