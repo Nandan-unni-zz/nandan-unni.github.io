@@ -2,23 +2,31 @@
     {
         "name": "Python",
         "level": "5",
-        "icon": "<svg></svg>",
-        "projects": [
-            {
-                "name": "Nano",
-                "link": "https://github.com/Nandan-unni/Nano"
-            }
-        ]
+        "icon": "<svg></svg>"
+    }, 
+    {
+        "name": "Django",
+        "level": "8",
+        "icon": "<svg></svg>"
     }, 
     {
         "name": "JavaScript",
-        "level": "5",
-        "icon": "<svg></svg>",
-        "projects": [
-            {
-                "name": "Nano",
-                "link": "https://github.com/Nandan-unni/Nano"
-            }
-        ]
+        "level": "7",
+        "icon": "<svg></svg>"
+    },
+    {
+        "name": "React",
+        "level": "7",
+        "icon": "<svg></svg>"
+    },
+    {
+        "name": "Nodejs",
+        "level": "7",
+        "icon": "<svg></svg>"
+    },
+    {
+        "name": "Java",
+        "level": "3",
+        "icon": "<svg></svg>"
     }
 ]

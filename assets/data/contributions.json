@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Sahaay",
+        "tech": ["React", "Firebase"],
+        "summary": "A COVID19 resource sharing progressive web app",
+        "description": "A long description",
+        "isCompleted": true,
+        "links": [
+            {
+                "codeRef": "https://github.com/Nodet-org/Sahaay",
+                "codeTag": "Sahaay UI Source Code",
+                "liveRef": "https://sahaay.xyz",
+                "liveTag": "Visit Sahaay Website"
+            },
+            {
+                "codeRef": "https://github.com/Nodet-org/Sahaay-API",
+                "codeTag": "Sahaay API Source Code",
+                "liveRef": "https://covid-resource.azurewebsites.net/",
+                "liveTag": "Visit Sahaay API"
+            }
+        ],
+        "images": [
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 1"
+            },
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 2"
+            }
+        ]
+    },
+    {
+        "name": "DrChrome",
+        "tech": ["MongoDB", "Express", "React", "Nodejs"],
+        "summary": "All interactions between a doctor and patient completely made online",
+        "description": "A long description",
+        "isCompleted": false,
+        "links": [
+            {
+                "codeRef": "https://github.com/No-det/DrChrome-Client",
+                "codeTag": "DrChrome UI Source Code",
+                "liveRef": "javascript:void(0);",
+                "liveTag": "NA"
+            },
+            {
+                "codeRef": "https://github.com/No-det/DrChrome-API",
+                "codeTag": "DrChrome API Source Code",
+                "liveRef": "javascript:void(0);",
+                "liveTag": "NA"
+            }
+        ],
+        "images": [
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 1"
+            },
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 2"
+            }
+        ]
+    },
+    {
+        "name": "eXhibyte",
+        "tech": ["Nodejs", "Express", "MongoDB", "EJS"],
+        "summary": "A web app to host exhibitions online",
+        "description": "A long description",
+        "isCompleted": true,
+        "links": [
+            {
+                "codeRef": "https://github.com/No-det/e-Xhibyte",
+                "codeTag": "eXhibyte Source Code",
+                "liveRef": "javascript:void(0);",
+                "liveTag": "NA"
+            }
+        ],
+        "images": [
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 1"
+            },
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 2"
+            }
+        ]
+    }
+]

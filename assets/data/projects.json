@@ -2,7 +2,7 @@
     {
         "name": "Nano",
         "tech": ["Python", "Gunicorn"],
-        "summary": "A short description",
+        "summary": "A small web framework using gunicorn",
         "description": "A long description",
         "isCompleted": false,
         "links": [
@@ -25,40 +25,9 @@
         ]
     },
     {
-        "name": "Sahaay",
-        "tech": ["React", "Firebase"],
-        "summary": "A short description",
-        "description": "A long description",
-        "isCompleted": true,
-        "links": [
-            {
-                "codeRef": "https://github.com/Nodet-org/Sahaay",
-                "codeTag": "Sahaay UI Source Code",
-                "liveRef": "https://sahaay.xyz",
-                "liveTag": "Visit Sahaay Website"
-            },
-            {
-                "codeRef": "https://github.com/Nodet-org/Sahaay-API",
-                "codeTag": "Sahaay API Source Code",
-                "liveRef": "https://covid-resource.azurewebsites.net/",
-                "liveTag": "Visit Sahaay API"
-            }
-        ],
-        "images": [
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 1"
-            },
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 2"
-            }
-        ]
-    },
-    {
         "name": "Twitter Clone",
         "tech": ["MongoDB", "Express", "React", "Nodejs", "Firebase"],
-        "summary": "A short description",
+        "summary": "A full stack clone of Twitter using MERN Stack",
         "description": "A long description",
         "isCompleted": false,
         "links": [
@@ -82,8 +51,8 @@
     },
     {
         "name": "Instagram API Clone",
-        "tech": ["Django", "Python", "Django REST Framework"],
-        "summary": "A short description",
+        "tech": ["Django", "PostgreSQL", "Django REST Framework"],
+        "summary": "A clone of Instagram API",
         "description": "A long description",
         "isCompleted": false,
         "links": [

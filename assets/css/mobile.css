@@ -18,11 +18,18 @@
   article.project {
     width: 75vw;
   }
-  button.tabBtn img {
+  menu.collapse img {
     height: 25px;
     width: 25px;
   }
-  button.tabBtn span {
+  menu.collapse span {
     font-size: 20px;
+  }
+
+  .darkMode menu.slider {
+    background-color: rgb(30, 30, 30, 0.9);
+  }
+  .lightMode menu.slider {
+    background-color: rgb(200, 200, 200, 0.9);
   }
 }

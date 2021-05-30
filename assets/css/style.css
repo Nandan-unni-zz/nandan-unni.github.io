@@ -28,6 +28,12 @@ body {
   background-color: var(--primaryBg);
   color: var(--primaryText);
 }
+/* .darkMode {
+  background-image: url(/assets/img/darkBackground.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
 button {
   border: none;
   cursor: pointer;
@@ -79,7 +85,7 @@ nav .openMenuBtn {
 nav .openMenuBtn div {
   margin: 0;
   width: 32px;
-  background-color: var(--tertiaryText);
+  /* background-color: var(--tertiaryText); */
 }
 nav .openMenuBtn div:first-child {
   transform: rotate(45deg) translate(-3px, 5px);
@@ -145,11 +151,17 @@ header figcaption span {
   display: flex;
   overflow-x: auto;
   margin: 15px 30px 80px 30px;
-  transition: 3s;
+  overflow-y: hidden;
+}
+.tabs section.closedtab {
+  animation: slideOut 0.5s;
   max-height: 0;
 }
-
-button.tabBtn {
+.tabs section.openTab {
+  animation: slideIn 0.5s;
+  max-height: fit-content;
+}
+menu.collapse {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -157,25 +169,27 @@ button.tabBtn {
   padding: 15px 10px;
   background: transparent;
   transition: var(--transition);
+  cursor: pointer;
 }
-.darkMode button.tabBtn {
+.darkMode menu.collapse {
   border-bottom: 1px solid #282828;
 }
-.lightMode button.tabBtn {
+.lightMode menu.collapse {
   border-bottom: 1px solid #d7d7d7;
 }
-button.tabBtn img {
+menu.collapse img {
   margin-right: 10px;
 }
-button.tabBtn span {
+menu.collapse span {
   display: flex;
   align-items: center;
   color: tomato;
   font-size: 25px;
   font-weight: 600;
 }
-button.tabBtn svg {
+menu.collapse svg {
   color: var(--primaryText);
+  transition: var(--transition);
 }
 article.project {
   transition: var(--transition);
@@ -205,7 +219,7 @@ article.project button {
   font-size: 14px;
 }
 article.project p {
-  font-size: 2vh;
+  font-size: 1.7vh;
   margin: 20px 0;
 }
 article.project .head,
@@ -230,35 +244,90 @@ article.project .foot span.status {
   color: #ff6347;
   border: 0.5px solid #ff6347;
 }
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px 0 40px 0;
+}
+footer section {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 40px 0;
+}
+footer section img {
+  height: 36px;
+}
+footer p {
+  display: flex;
+  align-items: center;
+}
+footer p span {
+  color: tomato;
+  font-size: 25px;
+  font-weight: 900;
+}
 
-menu {
+menu.slider {
   position: fixed;
   right: 0;
   top: 0;
   height: 100vh;
-  opacity: 0.9;
+  /* transition: var(--transition); */
   padding-top: 100px;
   padding-left: 0;
-  transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.2s;
   width: 0;
   overflow: hidden;
   font-weight: bold;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.darkMode menu {
-  background-color: #9b9b9b;
+.darkMode menu.slider {
+  background-color: rgb(30, 30, 30, 0.7);
 }
-.lightMode menu {
-  background-color: #000000;
+.lightMode menu.slider {
+  background-color: rgb(200, 200, 200, 0.7);
 }
-menu a {
+menu.slider a {
   padding: 20px 50px;
   width: fit-content;
   white-space: nowrap;
-  color: var(--tertiaryText);
 }
-menu a svg {
+menu.slider a svg {
   margin-right: 20px;
+}
+menu.slider p {
+  height: 50px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+menu.slider p span {
+  font-weight: bolder;
+  padding: 2px 5px;
+  border-radius: 5px;
+  /* transition: var(--transition); */
+}
+menu.slider p span.html {
+  /* background-color: #e6642d; */
+  border: 2px solid #e45127;
+}
+menu.slider p span.css {
+  /* background-color: #51abdd; */
+  border: 2px solid #2d74b8;
+}
+menu.slider p span.js {
+  /* background-color: #f2bf26; */
+  border: 2px solid #e7a328;
 }
 
 noscript {
