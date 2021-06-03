@@ -7,7 +7,7 @@
   --tertiaryText: rgb(30, 30, 30);
 }
 .lightMode {
-  --primaryBg: #ffffff;
+  --primaryBg: #f5f5f5;
   --secondaryBg: rgb(105, 105, 105);
   --tertiaryBg: #000000;
   --primaryText: rgb(30, 30, 30);

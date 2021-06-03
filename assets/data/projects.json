@@ -73,5 +73,36 @@
                 "caption": "Screen Shot 2"
             }
         ]
+    },
+    {
+        "name": "KeyBlogs",
+        "tech": ["Django", "PostgreSQL", "React"],
+        "summary": "A blogging web app",
+        "description": "A long description",
+        "isCompleted": true,
+        "links": [
+            {
+                "codeRef": "https://github.com/Nandan-unni/KeyBlogs-React-Frontend",
+                "codeTag": "KeyBlogs UI Source Code",
+                "liveRef": "https://keyblogs.web.app/",
+                "liveTag": "Visit KeyBlogs Website"
+            },
+            {
+                "codeRef": "https://github.com/Nandan-unni/KeyBlogs-Django-Backend",
+                "codeTag": "KeyBlogs API Source Code",
+                "liveRef": "http://keyblogsapi.herokuapp.com/",
+                "liveTag": "Visit KeyBlogs API"
+            }
+        ],
+        "images": [
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 1"
+            },
+            {
+                "src": "image.png",
+                "caption": "Screen Shot 2"
+            }
+        ]
     }
 ]

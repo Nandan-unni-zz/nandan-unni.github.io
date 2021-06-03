@@ -25,6 +25,12 @@
   menu.collapse span {
     font-size: 20px;
   }
+  footer section {
+    width: 80%;
+  }
+  footer section img {
+    height: 30px;
+  }
 
   .darkMode menu.slider {
     background-color: rgb(30, 30, 30, 0.9);
