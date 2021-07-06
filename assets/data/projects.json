@@ -75,23 +75,23 @@
         ]
     },
     {
-        "name": "KeyBlogs",
+        "name": "BlogBook",
         "tech": ["Django", "PostgreSQL", "React"],
         "summary": "A blogging web app",
         "description": "A long description",
         "isCompleted": true,
         "links": [
             {
-                "codeRef": "https://github.com/Nandan-unni/KeyBlogs-React-Frontend",
-                "codeTag": "KeyBlogs UI Source Code",
-                "liveRef": "https://keyblogs.web.app/",
-                "liveTag": "Visit KeyBlogs Website"
+                "codeRef": "https://github.com/Nandan-unni/BlogBook-React-Frontend",
+                "codeTag": "BlogBook UI Source Code",
+                "liveRef": "https://blogbook.web.app/",
+                "liveTag": "Visit BlogBook Website"
             },
             {
-                "codeRef": "https://github.com/Nandan-unni/KeyBlogs-Django-Backend",
-                "codeTag": "KeyBlogs API Source Code",
-                "liveRef": "http://keyblogsapi.herokuapp.com/",
-                "liveTag": "Visit KeyBlogs API"
+                "codeRef": "https://github.com/Nandan-unni/BlogBook-Django-Backend",
+                "codeTag": "BlogBook API Source Code",
+                "liveRef": "http://blogbookapi.herokuapp.com/",
+                "liveTag": "Visit BlogBook API"
             }
         ],
         "images": [
