@@ -1,108 +1,83 @@
 [
-    {
-        "name": "Nano",
-        "tech": ["Python", "Gunicorn"],
-        "summary": "A small web framework using gunicorn",
-        "description": "A long description",
-        "isCompleted": false,
-        "links": [
-            {
-                "codeRef": "https://github.com/Nandan-unni/Nano",
-                "codeTag": "Nano Source Code",
-                "liveRef": "https://pypi.org/project/nanoAPI/",
-                "liveTag": "Nano PIP Page"
-            }
-        ],
-        "images": [
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 1"
-            },
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 2"
-            }
-        ]
-    },
-    {
-        "name": "Twitter Clone",
-        "tech": ["MongoDB", "Express", "React", "Nodejs", "Firebase"],
-        "summary": "A full stack clone of Twitter using MERN Stack",
-        "description": "A long description",
-        "isCompleted": false,
-        "links": [
-            {
-                "codeRef": "https://github.com/Nandan-unni/Nano",
-                "codeTag": "Nano Source Code",
-                "liveRef": "https://pypi.org/project/nanoAPI/",
-                "liveTag": "Nano PIP Page"
-            }
-        ],
-        "images": [
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 1"
-            },
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 2"
-            }
-        ]
-    },
-    {
-        "name": "Instagram API Clone",
-        "tech": ["Django", "PostgreSQL", "Django REST Framework"],
-        "summary": "A clone of Instagram API",
-        "description": "A long description",
-        "isCompleted": false,
-        "links": [
-            {
-                "codeRef": "https://github.com/Nandan-unni/Nano",
-                "codeTag": "Nano Source Code",
-                "liveRef": "https://pypi.org/project/nanoAPI/",
-                "liveTag": "Nano PIP Page"
-            }
-        ],
-        "images": [
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 1"
-            },
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 2"
-            }
-        ]
-    },
-    {
-        "name": "BlogBook",
-        "tech": ["Django", "PostgreSQL", "React"],
-        "summary": "A blogging web app",
-        "description": "A long description",
-        "isCompleted": true,
-        "links": [
-            {
-                "codeRef": "https://github.com/Nandan-unni/BlogBook-React-Frontend",
-                "codeTag": "BlogBook UI Source Code",
-                "liveRef": "https://blogbook.web.app/",
-                "liveTag": "Visit BlogBook Website"
-            },
-            {
-                "codeRef": "https://github.com/Nandan-unni/BlogBook-Django-Backend",
-                "codeTag": "BlogBook API Source Code",
-                "liveRef": "http://blogbookapi.herokuapp.com/",
-                "liveTag": "Visit BlogBook API"
-            }
-        ],
-        "images": [
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 1"
-            },
-            {
-                "src": "image.png",
-                "caption": "Screen Shot 2"
-            }
-        ]
-    }
+  {
+    "name": "Nano",
+    "tech": ["Python", "Gunicorn"],
+    "summary": "A small web framework using gunicorn",
+    "description": "A long description",
+    "isCompleted": false,
+    "links": [
+      {
+        "codeRef": "https://github.com/Nandan-unni/Nano",
+        "codeTag": "Nano Source Code",
+        "liveRef": "https://pypi.org/project/nanoAPI/",
+        "liveTag": "Nano PIP Page"
+      }
+    ],
+    "images": [
+      {
+        "src": "image.png",
+        "caption": "Screen Shot 1"
+      },
+      {
+        "src": "image.png",
+        "caption": "Screen Shot 2"
+      }
+    ]
+  },
+  {
+    "name": "Instagram API Clone",
+    "tech": ["Django", "PostgreSQL", "Django REST Framework"],
+    "summary": "A clone of Instagram API",
+    "description": "A long description",
+    "isCompleted": false,
+    "links": [
+      {
+        "codeRef": "https://github.com/Nandan-unni/Nano",
+        "codeTag": "Nano Source Code",
+        "liveRef": "https://pypi.org/project/nanoAPI/",
+        "liveTag": "Nano PIP Page"
+      }
+    ],
+    "images": [
+      {
+        "src": "image.png",
+        "caption": "Screen Shot 1"
+      },
+      {
+        "src": "image.png",
+        "caption": "Screen Shot 2"
+      }
+    ]
+  },
+  {
+    "name": "BlogBook",
+    "tech": ["Django", "PostgreSQL", "React"],
+    "summary": "A blogging web app",
+    "description": "A long description",
+    "isCompleted": true,
+    "links": [
+      {
+        "codeRef": "https://github.com/Nandan-unni/BlogBook-React-Frontend",
+        "codeTag": "BlogBook UI Source Code",
+        "liveRef": "https://blogbook.web.app/",
+        "liveTag": "Visit BlogBook Website"
+      },
+      {
+        "codeRef": "https://github.com/Nandan-unni/BlogBook-Django-Backend",
+        "codeTag": "BlogBook API Source Code",
+        "liveRef": "http://blogbookapi.herokuapp.com/",
+        "liveTag": "Visit BlogBook API"
+      }
+    ],
+    "images": [
+      {
+        "src": "image.png",
+        "caption": "Screen Shot 1"
+      },
+      {
+        "src": "image.png",
+        "caption": "Screen Shot 2"
+      }
+    ]
+  }
 ]
